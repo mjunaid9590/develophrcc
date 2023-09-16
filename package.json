@@ -1,0 +1,32 @@
+{
+  "name": "newwork",
+  "version": "1.0.0",
+  "description": "Hi! I am Shahid Jan Amin. I am a MERN stack developer. I can develop a bussiness website for you. If you need any type of help just search my name in google and you can contect then with me from any platform. I will happy to help you.",
+  "main": "app.js",
+  "scripts": {
+    "setup-project": "npm i && cd client && npm i",
+    "setup-production-app": "npm i && cd client && npm i && npm run build ",
+    "start": "node app",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
